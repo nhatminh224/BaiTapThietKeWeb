@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.baitap {
+  color: green;
+  font-weight: bold;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.yeucau {
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.mota {
+  margin-bottom: 15px;
+}
+
+.tho {
+  width: 100%;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+
+.title {
+  background-color: pink;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.doan {
+  background-color: #fffacd; 
+  border-top: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.doan:first-of-type {
+  border-top: none; 
+}
+
+.blue  { color: blue; }
+.pink  { color: rgb(211, 33, 164); }
+.green { color: green; }

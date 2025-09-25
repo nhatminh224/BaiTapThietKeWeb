@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, "Times New Roman", serif;
+  margin: 20px;
+}
+
+h2 {
+  color: #c62828; 
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto 30px;
+}
+
+thead th {
+  border: 1px solid #999;
+  padding: 8px 10px;
+  background: #f8c3c3;
+  color: #800000;
+  font-weight: bold;
+  text-align: center;
+}
+
+tbody td {
+  border: 1px solid #999;
+  padding: 8px 10px;
+  vertical-align: middle;
+}
+
+td.group {
+  text-align: center;
+  font-weight: bold;
+  background: #fff6f6;
+  width: 18%;
+}
+
+td.subject {
+  text-align: left;
+}
+
+td.center {
+  text-align: center;
+  width: 12%;
+}
+
+tr.dots td {
+  font-style: italic;
+  color: #666;
+  background: #fafafa;
+}

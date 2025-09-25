@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <table>
+            <caption>Đăng nhập</caption>
+            <tr>
+                <td>Mã người dùng:</td>
+                <td><input type="text" id="user"></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu:</td>
+                <td><input type="password" id="pass"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Đồng ý" onclick="showUser()"></td>
+            </tr>
+        </table>
+        <div id="result" class="result"></div>
+    </form>
+
+    <script>
+        function showUser() {
+            let user = document.getElementById("user").value;
+            if (user.trim() !== "") {
+                document.getElementById("result").innerHTML = user;
+            }
+        }
+    </script>
+</body>
+</html>

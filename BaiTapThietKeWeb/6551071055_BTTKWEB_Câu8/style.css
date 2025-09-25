@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef;
+}
+
+.form-container {
+    width: 600px;
+    margin: 40px auto;
+    background-color: #e0f2e9;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.success-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.submit-btn {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+}
